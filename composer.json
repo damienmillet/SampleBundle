@@ -1,0 +1,41 @@
+{
+    "name": "damienmillet/sample-bundle",
+    "description": "Sample Bundle",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "damien millet",
+            "email": "contact@damien-millet.xyz"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "DM\\SampleBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DM\\SampleBundle\\Test\\": "tests/"
+        }
+    },
+    "require": {
+        "symfony/config": "^5.1",
+        "symfony/dependency-injection": "^5.1",
+        "symfony/http-kernel": "^5.1"
+    },
+    "require-dev": {
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../SampleBundle"
+        }
+    ]
+}
