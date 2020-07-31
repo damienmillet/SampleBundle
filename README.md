@@ -13,9 +13,3 @@ git add .
 git remote add origin {your repository}
 git push -u origin master
 ```
-
-or just use Composer
-
-```shell
-composer install damienmillet/sample-bundle
-```
