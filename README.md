@@ -2,7 +2,7 @@
 
 
 ```shell
-git clone https://github.com/damienmillet/SampleBundle.git {YourBundleName}Bundle
+git clone https://github.com/damienmillet/SampleBundle.git YourBundle
 ```
 
 #### update all data with _**TODO**_
@@ -10,7 +10,7 @@ git clone https://github.com/damienmillet/SampleBundle.git {YourBundleName}Bundl
 ```shell
 composer install
 git init
-git add .
-git remote add origin {your repository}
+git add . 
+git remote set-url origin {your repository}
 git push -u origin master
 ```
