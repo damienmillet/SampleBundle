@@ -2,7 +2,7 @@
 
 
 ```shell
-git clone https://github.com/damienmillet/SampleBundle.git
+git clone https://github.com/damienmillet/SampleBundle.git YourBundleNameBundle
 ```
 
 #### update all data with _**TODO**_
