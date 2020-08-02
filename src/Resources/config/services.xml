@@ -8,7 +8,7 @@
         <!-- TODO : change for yours ClassName -->
         <service id="dm_sample.sample" class="DM\SampleBundle\Sample">
             <!-- TODO : add arguments who're needed or nothing -->
-            <argument type="string" id="sample"/>
+            <argument type="string" id="config_sample"/>
         </service>
         <service id="DM\SampleBundle\Sample" alias="dm_sample.sample">
         </service>
